@@ -20,14 +20,11 @@ namespace palindrome
                 rev = (rev * 10) + r;
                 n = n / 10;
             }
-            if (rev == 0)
-
+            if (rev == m)
                 Console.WriteLine("it is tge pali");
             else
-
                 Console.WriteLine("it not a parlin");
-            Console.ReadLine();
+                Console.ReadLine();
         }
     }
-
 }
